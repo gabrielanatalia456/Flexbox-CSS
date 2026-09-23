@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+   background-color: rgb(223, 189, 255);
+   color: black;
+}
+
+p {
+   background-color: rgb(175, 255, 255);
+   color: black;
+}
+
+.header {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-end;
+}
