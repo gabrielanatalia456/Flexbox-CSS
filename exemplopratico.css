@@ -15,9 +15,9 @@ p {
 
 .header {
    display:flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   flex-wrap: wrap;
-   row-gap: 50px; ;
+   flex-direction:inherit
+   justify-content:row;
+   align-items:center;
+   flex-wrap:wrap;
+   row-gap:50px; ;
 }
