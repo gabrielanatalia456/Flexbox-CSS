@@ -19,5 +19,5 @@ p {
    justify-content:row;
    align-items:center;
    flex-wrap:wrap;
-   row-gap:50px; ;
+   row-gap:50px;
 }
