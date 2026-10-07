@@ -1,4 +1,4 @@
-* {
+{
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,31 @@ h1 {
    font-size: 50px;
    text-align: center;
    margin: 10px;
+}
+
+p {
+   background-color: rgb(255, 255, 255);
+   color: black;
+   text-align: center;
+   font-size: 20px;
+}
+
+h3 {
+   background-color: rgb(255, 255, 255);
+   color: black;
+   font-size: 50px;
+   text-align: center;
+   margin: 10px;
+   font-family: cursive;
+}
+
+h6 {
+   background-color: rgb(255, 255, 255);
+   color: black;
+   font-size: 30px;
+   text-align: center;
+   margin: 10px;
+   font-family: monospace;
 }
 
 p {
@@ -32,20 +57,4 @@ display: flex;
    gap: 10px;
    align-content: space-between;
    height: 500px;
-}
-
-.item5 {
-   flex-grow: 0;
-   flex-shrink: 2;
-   flex-basis: 200px;
-   align-self:flex-end ;
-   order: 2;
-
-}
-
-.item6 {
-   flex-grow: 0;
-   flex-shrink: 2;
-   flex-basis: 200px;
-   order: 1;
 }

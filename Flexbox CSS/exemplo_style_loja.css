@@ -1,6 +1,3 @@
-/* ===================================
-   CONFIGURAÇÕES GERAIS
-=================================== */
 
 * {
     box-sizing: border-box;
@@ -19,23 +16,17 @@ a {
 }
 
 
-/* ===================================
-   HEADER
-=================================== */
-
 .cabecalho {
     background-color: #172554;
     color: white;
     padding: 20px 8%;
-    /* FLEXBOX */
+  
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
 }
 
-
-/* LOGO */
 
 .logo h1 {
     margin: 0;
@@ -45,10 +36,6 @@ a {
     margin: 5px 0 0;
 }
 
-
-/* ===================================
-   MENU
-=================================== */
 
 .menu {
     display: flex;
@@ -68,10 +55,6 @@ a {
 }
 
 
-/* ===================================
-   MAIN
-=================================== */
-
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -79,17 +62,13 @@ main {
 }
 
 
-/* ===================================
-   BANNER
-=================================== */
-
 .banner {
     min-height: 350px;
     background-color: #2563eb;
     color: white;
     border-radius: 10px;
     padding: 50px;
-    /* FLEXBOX */
+ 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,10 +90,6 @@ main {
 }
 
 
-/* ===================================
-   BOTÃO
-=================================== */
-
 .botao {
 
     display: inline-block;
@@ -131,9 +106,6 @@ main {
 }
 
 
-/* ===================================
-   PRODUTOS
-=================================== */
 
 .produtos {
     margin-top: 40px;
@@ -145,7 +117,6 @@ main {
 }
 
 
-/* LISTA DE PRODUTOS */
 
 .lista-produtos {
     display: flex;
@@ -154,19 +125,16 @@ main {
 }
 
 
-/* ===================================
-   CARD DO PRODUTO
-=================================== */
 
 .produto {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    /* FLEXBOX */
+   
     display: flex;
     flex-direction: column;
-    /* 4 cards ocupando a linha */
+  
     flex: 1 1 220px;
 }
 
@@ -181,7 +149,7 @@ main {
 }
 
 
-/* IMAGEM DO PRODUTO */
+
 
 .produto-imagem {
     height: 150px;
@@ -195,7 +163,6 @@ main {
 }
 
 
-/* PREÇO */
 
 .preco {
     font-size: 22px;
@@ -204,9 +171,6 @@ main {
 }
 
 
-/* ===================================
-   SOBRE + OFERTA
-=================================== */
 
 .informacoes {
     margin-top: 40px;
@@ -216,25 +180,24 @@ main {
 }
 
 
-/* SOBRE */
 
 .sobre {
     background-color: white;
     padding: 30px;
     border-radius: 10px;
-    /* ocupa mais espaço */
+  
     flex: 2;
 }
 
 
-/* OFERTA */
+
 
 .oferta {
     background-color: #172554;
     color: white;
     padding: 30px;
     border-radius: 10px;
-    /* ocupa menos espaço */
+ 
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -253,15 +216,11 @@ main {
 }
 
 
-/* ===================================
-   FOOTER
-=================================== */
-
 .rodape {
     background-color: #111827;
     color: white;
     padding: 40px 8%;
-    /* FLEXBOX */
+  
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -280,9 +239,6 @@ main {
 }
 
 
-/* ===================================
-   RESPONSIVIDADE
-=================================== */
 
 @media (max-width: 768px) {
 
